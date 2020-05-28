@@ -1,7 +1,32 @@
-# Keycloak
+# Angular Server Side Rendering With Keycloak
 
-Keycloak angular integration tutorial.
+You can create user and login with keycloak to angular application.
 
-## Frontend User
-* Username: angular
-* Password: admin
+### Keycloak Installation
+
+```
+$ docker-compose up -d
+```
+
+Keycloak Server listening on http://localhost:8080
+
+### Angular Installation
+
+```
+$ yarn install
+```
+
+### Angular Run Dev Mode
+
+```
+$ yarn run:dev
+```
+
+### Angular Run Prod Mode
+
+```
+$ yarn build:ssr
+$ yarn serve:ssr
+```
+
+Server listening on http://localhost:4000
