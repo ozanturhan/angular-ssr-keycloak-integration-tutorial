@@ -2,6 +2,10 @@
 
 You can create user and login with keycloak to angular application.
 
+```
+Keycloak Admin User and Password: admin
+```
+
 ### Keycloak Installation
 
 ```
@@ -19,7 +23,7 @@ $ yarn install
 ### Angular Run Dev Mode
 
 ```
-$ yarn run:dev
+$ yarn start
 ```
 
 ### Angular Run Prod Mode
@@ -30,3 +34,7 @@ $ yarn serve:ssr
 ```
 
 Server listening on http://localhost:4000
+
+NOT: Please add "\*" to WebOrigins for "Angular-keycloak-test" client.
+
+![image info](./web-origins.png)
